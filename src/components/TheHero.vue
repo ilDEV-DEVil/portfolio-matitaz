@@ -4,8 +4,8 @@
 <template>
   <div class="hero">
     <div class="hero-container">
-      <h1 class="fs-1">Matilde Campana</h1>
-      <div class="fs-2">Digital artist</div>
+      <h1 class="title">Matilde Campana</h1>
+      <div class="subtitle">Digital artist</div>
       <div class="hero-container-links">
         <a href="">About Me</a>
         <a href="">Contacts</a>
@@ -31,13 +31,14 @@
     text-align: center;
     color: white;
 
-    .fs-1 {
+    .title {
       font-size: 3rem;
       line-height: 1.5;
     }
 
-    .fs-2 {
+    .subtitle {
       font-size: 2rem;
+      font-weight: lighter;
     }
 
     &-links {
