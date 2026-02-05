@@ -1,0 +1,56 @@
+<script setup lang="ts">
+</script>
+
+<template>
+  <div class="hero">
+    <div class="hero-container">
+      <h1 class="fs-1">Matilde Campana</h1>
+      <div class="fs-2">Digital artist</div>
+      <div class="hero-container-links">
+        <a href="">About Me</a>
+        <a href="">Contacts</a>
+      </div>
+    </div>
+    </div>
+</template>
+
+<style scoped lang="scss">
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://wallpapercave.com/wp/wp7421176.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+
+  &-container {
+    text-align: center;
+    color: white;
+
+    .fs-1 {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+
+    .fs-2 {
+      font-size: 2rem;
+    }
+
+    &-links {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1rem;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        font-style: italic
+      }
+    }
+  }
+}
+</style>
