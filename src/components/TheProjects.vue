@@ -1,15 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import BaseProject from './BaseProject.vue';
+</script>
 
 <template>
   <div class="projects" id="projects">
-    <div class="main-project"></div>
-      <div class="minor-projects">
-        <div class="project">
-          project 1
-        </div>
-        <div class="project"></div>
-        <div class="project"></div>
-      </div>
+    <div class="main-project">
+      <BaseProject name="Project 1"/>
+    </div>
+    <div class="minor-projects">
+      <BaseProject name="Project 2"/>
+      <BaseProject name="Project 3"/>
+      <BaseProject name="Project 4"/>
+    </div>
   </div>
 </template>
 
@@ -20,12 +22,6 @@
   .main-project {
     height: 500px;
     width: 100%;
-    border: 1px solid darkgray;
-    border-radius: 8px;
-    transition: transform 200ms;
-      &:hover {
-        transform: scale(0.95)
-      }
   }
 
   .minor-projects {
@@ -37,21 +33,6 @@
       ". . .";
     justify-items: stretch;
     margin-top: 16px;
-
-    .project {
-      border: 1px solid darkgray;
-      border-radius: 8px;
-      font-size: 2rem;
-      font-weight: lighter;
-      color: black;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: end;
-      transition: transform 200ms;
-      &:hover {
-        transform: scale(0.95)
-      }
-    }
   }
 }
 </style>
