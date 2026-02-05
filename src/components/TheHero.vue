@@ -8,6 +8,7 @@
       <div class="subtitle">Digital artist</div>
       <div class="hero-container-links">
         <a href="">About Me</a>
+        <a href="#projects">Projects</a>
         <a href="">Contacts</a>
       </div>
     </div>
@@ -45,11 +46,17 @@
       display: flex;
       justify-content: space-between;
       font-size: 1rem;
+      margin: 16px;
 
       a {
         color: inherit;
         text-decoration: none;
-        font-style: italic
+        font-style: italic;
+        transition: all 200ms;
+
+        &:hover {
+          transform: translateY(-8px)
+        }
       }
     }
   }
