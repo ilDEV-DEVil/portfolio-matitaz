@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import TheProjects from '../components/TheProjects.vue';
 import TheHero from '../components/TheHero.vue';
 
 </script>
@@ -6,6 +7,7 @@ import TheHero from '../components/TheHero.vue';
 <template>
   <main>
     <TheHero/>
+    <TheProjects/>
   </main>
 </template>
 
