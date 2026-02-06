@@ -2,14 +2,14 @@
 
 <template>
   <footer class="footer">
-    <div class="footer-section">
+    <div id="about" class="footer-section">
       <div class="footer-section-title">About me</div>
       <div class="footer-section-subtitle">
         <div>Hello!</div>
         <div>I'm Matilde Campana, a concept artist from Italy</div>
       </div>
     </div>
-    <div class="footer-section contacts">
+    <div id="contacts" class="footer-section contacts">
       <div class="footer-section-title">Contacts</div>
       <div class="footer-section-subtitle">
         <div>matitaz.art@gmail.com</div>

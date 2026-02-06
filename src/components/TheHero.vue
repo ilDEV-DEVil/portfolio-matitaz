@@ -7,9 +7,9 @@
       <h1 class="title">Matilde Campana</h1>
       <div class="subtitle">Digital artist</div>
       <div class="hero-container-links">
-        <a href="">About Me</a>
+        <a href="#about">About Me</a>
         <a href="#projects">Projects</a>
-        <a href="">Contacts</a>
+        <a href="#contacts">Contacts</a>
       </div>
     </div>
     </div>
