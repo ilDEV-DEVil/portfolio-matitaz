@@ -4,7 +4,9 @@
 
 <template>
   <div class="project">
-    {{ name }}
+    <div class="project-name">
+      {{ name }}
+    </div>
   </div>
 </template>
 
@@ -20,9 +22,21 @@
       padding: 1rem 2rem;
       display: flex;
       align-items: end;
+      background-image: url("../assets/images/matitaz.jpeg");
+      background-position: center;
+      background-size: cover;
+      cursor: pointer;
       transition: transform 200ms;
+
       &:hover {
-        transform: scale(0.95)
+        transform: scale(0.95);
+      }
+
+      &-name {
+        background-color: white;
+        border-radius: 8px;
+        padding: 0 4px;
+        line-height: 1.3;
       }
     }
 </style>
